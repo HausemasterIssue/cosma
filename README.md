@@ -1,6 +1,8 @@
 # cosma
 A fast and lightweight event bus
 
+**Disclaimer**: This was originally meant to be for [Cosmos](https://github.com/momentumdevelopment/cosmos), because Linus thought that the FML Event Bus was an issue, when it wasn't. However, it turns out that this one is wayyyy faster than it, so yeah.
+
 ---
 
 ## Usage
