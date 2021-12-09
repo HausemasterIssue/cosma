@@ -7,9 +7,7 @@ public class Event {
     private boolean canceled = false;
 
     public Event() {
-        if (getClass().isAnnotationPresent(Cancelable.class)) {
-            cancelable = true;
-        }
+        cancelable = getClass().isAnnotationPresent(Cancelable.class);
     }
 
     public boolean isCancelable() {
